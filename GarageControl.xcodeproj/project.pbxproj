@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		113860AB1BC43F0F00B6ABC9 /* Centre-Village-Ependes-a-la-Croix-Blanche.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 113860AA1BC43F0F00B6ABC9 /* Centre-Village-Ependes-a-la-Croix-Blanche.gpx */; };
+		113860AD1BC44F5B00B6ABC9 /* Arconciel-to-Home.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 113860AC1BC44F5B00B6ABC9 /* Arconciel-to-Home.gpx */; };
+		1161C3B31BC1B3AB00C2BA15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1161C3B21BC1B3AB00C2BA15 /* AppDelegate.swift */; };
+		1161C3B51BC1B3AB00C2BA15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1161C3B41BC1B3AB00C2BA15 /* ViewController.swift */; };
+		1161C3B81BC1B3AC00C2BA15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1161C3B61BC1B3AC00C2BA15 /* Main.storyboard */; };
+		1161C3BA1BC1B3AC00C2BA15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1161C3B91BC1B3AC00C2BA15 /* Assets.xcassets */; };
+		1161C3BD1BC1B3AC00C2BA15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1161C3BB1BC1B3AC00C2BA15 /* LaunchScreen.storyboard */; };
+		1161C3CC1BC1D41500C2BA15 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1161C3CB1BC1D41500C2BA15 /* Alamofire.framework */; };
+		1161C3D01BC1EB4400C2BA15 /* GarageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1161C3CF1BC1EB4400C2BA15 /* GarageControl.swift */; };
+		1161C3D41BC1EF6800C2BA15 /* Geofence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1161C3D31BC1EF6800C2BA15 /* Geofence.swift */; };
+		1161C3D61BC1F4D200C2BA15 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1161C3D51BC1F4D200C2BA15 /* CoreLocation.framework */; };
+		116A09821BED520300A788B1 /* chimes.caf in Resources */ = {isa = PBXBuildFile; fileRef = 113860AE1BC462FA00B6ABC9 /* chimes.caf */; };
+		11718AEA1BC485FA00631955 /* MainiPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11718AE91BC485FA00631955 /* MainiPad.storyboard */; };
+		11752FF91BDD28BE000C0280 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11752FF81BDD28BE000C0280 /* SwiftyJSON.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		113860AA1BC43F0F00B6ABC9 /* Centre-Village-Ependes-a-la-Croix-Blanche.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Centre-Village-Ependes-a-la-Croix-Blanche.gpx"; path = "GarageControl/Centre-Village-Ependes-a-la-Croix-Blanche.gpx"; sourceTree = "<group>"; };
+		113860AC1BC44F5B00B6ABC9 /* Arconciel-to-Home.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Arconciel-to-Home.gpx"; sourceTree = "<group>"; };
+		113860AE1BC462FA00B6ABC9 /* chimes.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = chimes.caf; sourceTree = SOURCE_ROOT; };
+		1161C3AF1BC1B3AB00C2BA15 /* GarageControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GarageControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1161C3B21BC1B3AB00C2BA15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1161C3B41BC1B3AB00C2BA15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1161C3B71BC1B3AC00C2BA15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1161C3B91BC1B3AC00C2BA15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1161C3BC1BC1B3AC00C2BA15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1161C3BE1BC1B3AC00C2BA15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1161C3C41BC1CFA300C2BA15 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = ../../Carthage/GarageControl/Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		1161C3C51BC1CFA300C2BA15 /* Alamofire.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Alamofire.framework.dSYM; path = ../../Carthage/GarageControl/Carthage/Build/iOS/Alamofire.framework.dSYM; sourceTree = "<group>"; };
+		1161C3C91BC1D3F700C2BA15 /* Build */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Build; path = Carthage/Build; sourceTree = "<group>"; };
+		1161C3CB1BC1D41500C2BA15 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		1161C3CF1BC1EB4400C2BA15 /* GarageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GarageControl.swift; sourceTree = "<group>"; };
+		1161C3D31BC1EF6800C2BA15 /* Geofence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geofence.swift; sourceTree = "<group>"; };
+		1161C3D51BC1F4D200C2BA15 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		11718AE91BC485FA00631955 /* MainiPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainiPad.storyboard; sourceTree = "<group>"; };
+		11752FF81BDD28BE000C0280 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		11752FFB1BDD2E64000C0280 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		117921681BDD1F97007DFEE0 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1161C3AC1BC1B3AB00C2BA15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1161C3D61BC1F4D200C2BA15 /* CoreLocation.framework in Frameworks */,
+				1161C3CC1BC1D41500C2BA15 /* Alamofire.framework in Frameworks */,
+				11752FF91BDD28BE000C0280 /* SwiftyJSON.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1161C3A61BC1B3AB00C2BA15 = {
+			isa = PBXGroup;
+			children = (
+				11752FF81BDD28BE000C0280 /* SwiftyJSON.framework */,
+				113860AC1BC44F5B00B6ABC9 /* Arconciel-to-Home.gpx */,
+				113860AA1BC43F0F00B6ABC9 /* Centre-Village-Ependes-a-la-Croix-Blanche.gpx */,
+				1161C3D51BC1F4D200C2BA15 /* CoreLocation.framework */,
+				1161C3CB1BC1D41500C2BA15 /* Alamofire.framework */,
+				1161C3C91BC1D3F700C2BA15 /* Build */,
+				1161C3C41BC1CFA300C2BA15 /* Alamofire.framework */,
+				1161C3C51BC1CFA300C2BA15 /* Alamofire.framework.dSYM */,
+				1161C3B11BC1B3AB00C2BA15 /* GarageControl */,
+				1161C3B01BC1B3AB00C2BA15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1161C3B01BC1B3AB00C2BA15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1161C3AF1BC1B3AB00C2BA15 /* GarageControl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1161C3B11BC1B3AB00C2BA15 /* GarageControl */ = {
+			isa = PBXGroup;
+			children = (
+				1161C3B21BC1B3AB00C2BA15 /* AppDelegate.swift */,
+				1161C3B41BC1B3AB00C2BA15 /* ViewController.swift */,
+				1161C3B61BC1B3AC00C2BA15 /* Main.storyboard */,
+				11718AE91BC485FA00631955 /* MainiPad.storyboard */,
+				1161C3B91BC1B3AC00C2BA15 /* Assets.xcassets */,
+				1161C3BB1BC1B3AC00C2BA15 /* LaunchScreen.storyboard */,
+				1161C3BE1BC1B3AC00C2BA15 /* Info.plist */,
+				1161C3CF1BC1EB4400C2BA15 /* GarageControl.swift */,
+				1161C3D31BC1EF6800C2BA15 /* Geofence.swift */,
+				113860AE1BC462FA00B6ABC9 /* chimes.caf */,
+			);
+			path = GarageControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1161C3AE1BC1B3AB00C2BA15 /* GarageControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1161C3C11BC1B3AC00C2BA15 /* Build configuration list for PBXNativeTarget "GarageControl" */;
+			buildPhases = (
+				1161C3AB1BC1B3AB00C2BA15 /* Sources */,
+				1161C3AC1BC1B3AB00C2BA15 /* Frameworks */,
+				1161C3AD1BC1B3AB00C2BA15 /* Resources */,
+				1161C3C81BC1D26F00C2BA15 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GarageControl;
+			productName = GarageControl;
+			productReference = 1161C3AF1BC1B3AB00C2BA15 /* GarageControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1161C3A71BC1B3AB00C2BA15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Mathieu Clement";
+				TargetAttributes = {
+					1161C3AE1BC1B3AB00C2BA15 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = EGP8XYQYXS;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 1161C3AA1BC1B3AB00C2BA15 /* Build configuration list for PBXProject "GarageControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+			);
+			mainGroup = 1161C3A61BC1B3AB00C2BA15;
+			productRefGroup = 1161C3B01BC1B3AB00C2BA15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1161C3AE1BC1B3AB00C2BA15 /* GarageControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1161C3AD1BC1B3AB00C2BA15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				113860AD1BC44F5B00B6ABC9 /* Arconciel-to-Home.gpx in Resources */,
+				1161C3BD1BC1B3AC00C2BA15 /* LaunchScreen.storyboard in Resources */,
+				113860AB1BC43F0F00B6ABC9 /* Centre-Village-Ependes-a-la-Croix-Blanche.gpx in Resources */,
+				11718AEA1BC485FA00631955 /* MainiPad.storyboard in Resources */,
+				116A09821BED520300A788B1 /* chimes.caf in Resources */,
+				1161C3BA1BC1B3AC00C2BA15 /* Assets.xcassets in Resources */,
+				1161C3B81BC1B3AC00C2BA15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1161C3C81BC1D26F00C2BA15 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1161C3AB1BC1B3AB00C2BA15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1161C3D01BC1EB4400C2BA15 /* GarageControl.swift in Sources */,
+				1161C3D41BC1EF6800C2BA15 /* Geofence.swift in Sources */,
+				1161C3B51BC1B3AB00C2BA15 /* ViewController.swift in Sources */,
+				1161C3B31BC1B3AB00C2BA15 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1161C3B61BC1B3AC00C2BA15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1161C3B71BC1B3AC00C2BA15 /* Base */,
+				11752FFB1BDD2E64000C0280 /* fr */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1161C3BB1BC1B3AC00C2BA15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1161C3BC1BC1B3AC00C2BA15 /* Base */,
+				117921681BDD1F97007DFEE0 /* fr */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1161C3BF1BC1B3AC00C2BA15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1161C3C01BC1B3AC00C2BA15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1161C3C21BC1B3AC00C2BA15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = GarageControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mathieuclement.GarageControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1161C3C31BC1B3AC00C2BA15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = GarageControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mathieuclement.GarageControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1161C3AA1BC1B3AB00C2BA15 /* Build configuration list for PBXProject "GarageControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1161C3BF1BC1B3AC00C2BA15 /* Debug */,
+				1161C3C01BC1B3AC00C2BA15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1161C3C11BC1B3AC00C2BA15 /* Build configuration list for PBXNativeTarget "GarageControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1161C3C21BC1B3AC00C2BA15 /* Debug */,
+				1161C3C31BC1B3AC00C2BA15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1161C3A71BC1B3AB00C2BA15 /* Project object */;
+}

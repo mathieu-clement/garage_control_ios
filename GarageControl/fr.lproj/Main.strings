@@ -1,0 +1,17 @@
+/* Class = "UIButton"; normalTitle = "Loading..."; ObjectID = "jZY-Gf-jUC"; */
+"jZY-Gf-jUC.normalTitle" = "Patientez un instant...";
+
+/* Class = "UIViewController"; title = "GarageControl"; ObjectID = "BYZ-38-t0r"; */
+"BYZ-38-t0r.title" = "Télécommande garage";
+
+/* Class = "UIButton"; normalTitle = "⇣ Close ⇣"; ObjectID = "Ffe-wO-INi"; */
+"Ffe-wO-INi.normalTitle" = "⇣ Fermer ⇣";
+
+/* Class = "UILabel"; text = "Monitor location"; ObjectID = "PqJ-5F-dwA"; */
+"PqJ-5F-dwA.text" = "Suivre la position";
+
+/* Class = "UILabel"; text = "Status"; ObjectID = "tDm-0P-QeG"; */
+"tDm-0P-QeG.text" = "Statut";
+
+/* Class = "UIButton"; normalTitle = "⇡ Open ⇡"; ObjectID = "xrO-ad-JjA"; */
+"xrO-ad-JjA.normalTitle" = "⇡ Ouvrir ⇡";
